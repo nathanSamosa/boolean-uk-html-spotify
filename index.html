@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Spotify</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="src/css/reset.css" />
+        <link rel="stylesheet" href="src/css/header.css" />
+        <link rel="stylesheet" href="src/css/sidebar.css" />
+        <link rel="stylesheet" href="src/css/footer.css" />
+        <link rel="stylesheet" href="src/css/main.css" />
+    </head>
+    <body>
+        <header>
+            <a href="">Upgrade</a>
+        </header>
+
+        <section id="sidebar" class="sticky">
+            <div id="logo">
+                <img src="assets/img/logo-small.svg" alt="logo">
+                <h1>Spotify</h1>
+            </div>
+            <div id="pages">
+                <ul>
+                    <li><a href=""><img src="assets/img/home.svg" alt="Home"><b>Home</b></a></li>
+                    <li><a href=""><img src="assets/img/search.svg" alt="Home">Search</a></li>
+                    <li><a href=""><img src="assets/img/library.svg" alt="Home">Your Library</a></li>
+                </ul>
+            </div>
+            <div id="playlists">
+                <h3>Playlist</h3>
+                <ul>
+                    <li id="create-playlist"><a href=""><button>+</button>Create Playlist</a></li>
+                    <li><a href="">Playlist Name</a></li>
+                    <li><a href="">Playlist Name</a></li>
+                    <li><a href="">Playlist Name</a></li>
+                    <li><a href="">Playlist Name</a></li>
+                </ul>
+            </div>
+            <div id="install">
+                <button id="download"><img src="assets/img/download.svg" alt="Download">Install App</button>
+                <button id="profile"><img src="assets/img/profile.svg" alt="Download">Nathan Quinn</button>
+            </div>
+        </section>
+        
+        <footer>
+            <section id="current-song">
+                <img src="assets/img/wluwd.jpg" alt="WLUWD">
+                <div id="song-text">
+                    <span id="artist">Tristam</span>
+                    <span id="track">Children in the Dark</span>
+                </div>
+                <div id="current-song-icons">
+                    <a href=""><img src="assets/img/heart.png" alt="Love"></a>
+                    <a href=""><img src="assets/img/folder.png" alt="Save"></a>
+                </div>
+            </section>
+            <section id="play-bar">
+                <div id="play-controls">
+                    <button><img src="assets/img/shuffle.png" alt="Shuffle" width="20px"></button>
+                    <button><img src="assets/img/back.png" alt="Back" width="20px"></button>
+                    <button><img src="assets/img/play-button.png" alt="Play" width="40px"></button>
+                    <button><img src="assets/img/next.png" alt="Next" width="20px"></button>
+                    <button><img src="assets/img/replay.png" alt="Replay" width="20px"></button>
+                </div>
+                <div id="play-progress">
+                    <span>0:25</span>
+                    <div id="progress-border">
+                        <div id="progress-bar"></div>
+                    </div>
+                    <span>4:35</span>
+                </div>
+            </section>
+            <section id="task-controls">
+                <button><img src="assets/img/playlist.png" alt="Play" width="20px"></button>
+                <button><img src="assets/img/desktop-pc.png" alt="Next" width="20px"></button>
+                <button><img src="assets/img/low-volume.png" alt="Replay" width="20px"></button>
+                <div id="volume-border">
+                    <div id="volume-bar"></div>
+                </div>
+            </section>
+        </footer>
+
+        <main>
+            <section id="tabs">
+                <ul>
+                    <li><a href=""><b>Trending</b></a></li>
+                    <li><a href="">Podcast</a></li>
+                    <li><a href="">Charts</a></li>
+                    <li><a href="">Genres and Moods</a></li>
+                    <li><a href="">Brand New</a></li>
+                    <li><a href="">Discover</a></li>
+                </ul>
+            </section>
+
+            <section id="recents">
+                <h2>Recently Played</h2>
+                <div class="card-box">
+
+                    <div class="card">
+                        <a href=""><img src="assets/img/metal.jpg" alt="Heavy Metal"></a>
+                        <h4>Heavy Metal</h4>
+                        <h5>Subtitle</h5>
+                    </div>
+
+                    <div class="card">
+                        <a href=""><img src="assets/img/stranger.jpg" alt="Stranger Things"></a>
+                        <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
+                        <h5>Kyle DIxon & Micheal Stein</h5>
+                    </div>
+
+                    <div class="card">
+                        <a href=""><img src="assets/img/quiet.jpg" alt="A Quiet Place"></a>
+                        <h4>A Quiet Place</h4>
+                        <h5>Subtitle</h5>
+                    </div>
+
+                    <div class="card">
+                        <a href=""><img src="assets/img/split.jpg" alt="Split"></a>
+                        <h4>Split</h4>
+                        <h5>Subtitle</h5>
+                    </div>
+
+                    <div class="card">
+                        <a href=""><img src="assets/img/cure.jpg" alt="A Cure for Wellness"></a>
+                        <h4>A Cure for Wellness</h4>
+                        <h5>Subtitle</h5>
+                    </div>
+
+                    <div class="card">
+                        <a href=""><img src="assets/img/sinister.jpg" alt="Sinister"></a>
+                        <h4>Sinister</h4>
+                        <h5>Subtitle</h5>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section id="morefrom">
+                <h2>More from Nathan Quinn-Sihota</h2>
+                <h5>Listen to the DJs Nathan has made a name for.</h5>
+                <div class="card-box">
+
+                    <div class="card">
+                        <a href="https://www.youtube.com/watch?v=A8pOVirjGF0" target="_blank"><img src="assets/img/riot.jpg" alt="Riot"></a>
+                        <h4>RIOT</h4>
+                        <h5>Dogman Resistance LP (2019)</h5>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://www.youtube.com/watch?v=K2QEKOKPlV4" target="_blank"><img src="assets/img/au5.jpg" alt="Au5"></a>
+                        <h4>Au5</h4>
+                        <h5>Only in a Dream EP (2018)</h5>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://www.youtube.com/watch?v=TsWiuqzhtis" target="_blank"><img src="assets/img/wluwd.jpg" alt="Tristam"></a>
+                        <h4>Tristam</h4>
+                        <h5>With Love until we Die (2021)</h5>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://www.youtube.com/watch?v=xzLeWakinsI" target="_blank"><img src="assets/img/koven.jpg" alt="Koven"></a>
+                        <h4>Koven</h4>
+                        <h5>Butterfly Effect LP (2020)</h5>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://www.youtube.com/watch?v=a_xUX7L9brE" target="_blank"><img src="assets/img/bossfight.jpg" alt="Bossfight"></a>
+                        <h4>Bossfight</h4>
+                        <h5>Next Wave EP (2019)</h5>
+                    </div>
+
+                </div>
+                
+            </section>
+            <section id="popular">
+                <h2>Popular Artists</h2>
+                <h5>The more you listen, the more accurate the suggestions.</h5>
+                <div class="card-box">
+
+                    <div class="card">
+                        <a class="circle-card" href=""><img class="circle-card" src="assets/img/youg.jpg" alt="Youg"></a>
+                        <h4>Youg</h4>
+                        <h5>Subtitle</h5>
+                    </div>
+
+                    <div class="card circle-card">
+                        <a class="circle-card" href=""><img class="circle-card" src="assets/img/einaudi.jpg" alt="Einaudi"></a>
+                        <h4>Einaudi</h4>
+                        <h5>Subtitle</h5>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

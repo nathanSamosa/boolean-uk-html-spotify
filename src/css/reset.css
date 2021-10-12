@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+li,
+#download,
+#track {
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
+
+header,
+footer,
+#sidebar {
+    z-index: 100;
+    color: white;
+    position: fixed;
+}

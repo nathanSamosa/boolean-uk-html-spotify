@@ -1,0 +1,29 @@
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #292929;
+    top: 0;
+    box-shadow: 0 2px 10px #000000;
+    opacity: 0.7;
+}
+
+header a {
+    padding: 10px;
+    margin: 10px 50px;
+    column-gap: 10px;
+    height: 50px;
+    width: 200px;
+    float: right;
+    border-radius: 25px;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    transition-duration: 0.3s;
+}
+header a:hover {
+    box-shadow: 0 0 10px white;
+    transition-duration: 0.3s;
+}
